@@ -205,7 +205,7 @@ ALIVE_LOGO = os.environ.get(
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/4bfddd6b90c3183e544fc.jpg"
+    "INLINE_PIC") or "(https://i.postimg.cc/dV1ykYL3/midnight.jpg)"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
