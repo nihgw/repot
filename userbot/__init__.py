@@ -201,7 +201,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/e016938997847e68efd0a.jpg"
+    "ALIVE_LOGO") or "https://i.postimg.cc/jSNgLm2p/iiii.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
@@ -478,7 +478,7 @@ with bot:
                 ms = (end - start).microseconds / 1000
                 await tgbot.send_message(
                     event.chat_id,
-                    f"**PONG!!**\n `{ms}ms`",
+                    f"**🐧nguin**\n `{ms}ms`",
                 )
 
         @ tgbot.on(
